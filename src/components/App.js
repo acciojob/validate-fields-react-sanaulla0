@@ -24,7 +24,7 @@ const App = () => {
 }
 else
 {
-  setError(false);
+  setError('');
   }
   }
   return (
