@@ -34,7 +34,7 @@ else
       <span>UserName</span>  <input type="email"  name="Email" value={formdata.Email} onChange={handleChange}  />  <br/>
       <span>Password</span>  <input type="password" value={formdata.Password} name="Password" onChange={handleChange}  />  <br/>
 
-        <h4 id="errorMessage">{error ? 'Both username and password are required' : ''}</h4>
+        <p id="errorMessage">{error ? 'Both username and password are required.' : ''}</p>
       <button type="submit" onClick={handleSubmit}
       >Login</button>
      
